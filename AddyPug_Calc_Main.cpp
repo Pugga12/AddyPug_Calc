@@ -1,11 +1,6 @@
-// CalculatorTutorial.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
 #include "Math.h"
-
 using namespace std;
-
 int main()
 {
     double x = 0.0;
@@ -13,8 +8,8 @@ int main()
     double result = 0.0;
     char oper = '+';
 
-    cout << "AddyPug Calc (C++, V1.2)" << endl << endl;
-    cout << "Please enter the operation to perform. Format: a+b | a-b | a*b or aXb | a/b"
+    cout << "AddyPug Calc (C++, V1.3)" << endl << endl;
+    cout << "Please enter the operation to perform. Format: a+b | a-b | a*b or aXb | a/b | x^y"
         << endl;
 
     Calculator c;
@@ -25,8 +20,6 @@ int main()
         cout << "Result is: " << result << endl;
         break;
     }
-
     return 0;
-    
 }
 
