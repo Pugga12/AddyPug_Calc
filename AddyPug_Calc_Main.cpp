@@ -13,8 +13,8 @@ int main()
     double result = 0.0;
     char oper = '+';
 
-    cout << "AddyPug Calc (C++, V1)" << endl << endl;
-    cout << "Please enter the operation to perform. Format: a+b | a-b | a*b | a/b"
+    cout << "AddyPug Calc (C++, V1.2)" << endl << endl;
+    cout << "Please enter the operation to perform. Format: a+b | a-b | a*b or aXb | a/b"
         << endl;
 
     Calculator c;
