@@ -9,7 +9,7 @@ int main()
     char oper = '+';
 
     cout << "AddyPug Calc (C++, V1.3)" << endl << endl;
-    cout << "Please enter the operation to perform. Format: a+b | a-b | a*b or aXb | a/b | x^y"
+    cout << "Please enter the operation to perform. Format: a+b | a-b | a*b, aXb or axb | a/b | x^y"
         << endl;
 
     Calculator c;
